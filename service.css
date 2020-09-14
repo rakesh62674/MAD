@@ -1,0 +1,178 @@
+body{
+	background-color:#42455a; 
+}.one{
+	width: 100%;
+	height: 100%;
+
+}
+.menu ul li{
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-flex;
+	margin: 50px;
+	color:#19dafa  !important;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 20px;
+	color: white;
+	cursor: pointer;
+}
+.logo img{
+	width: 30px;
+}
+.part1{background-color: white;
+	height: 150px;
+	width: auto;
+	margin-top: 90px;
+	border-radius: 20px;
+
+}
+#png{
+	width: 120px;
+	height: 120px;
+	margin-left: 50px;
+
+
+	
+}
+#specifications{
+	margin-top: -140px;
+	margin-left: 300px;
+
+}
+#png2{
+	width: 120px;
+	height: 120px;
+	margin-left: 800px;
+	margin-top: -250px;
+	margin-bottom: 50px;
+
+
+	
+}
+#specifications2{
+	margin-top: -140px;
+	
+	margin-left: 1000px;
+	margin-top: -205px;
+
+}
+.part2{background-color: white;
+	height: 150px;
+	width: auto;
+	margin-top: 90px;
+	border-radius: 20px;
+
+}
+
+
+#png3{
+	width: 120px;
+	height: 120px;
+	margin-left: 50px;
+
+
+	
+}
+#specifications3{
+	margin-top: -140px;
+	margin-left: 300px;
+
+}
+#png4{
+	width: 120px;
+	height: 120px;
+	margin-left: 800px;
+	margin-top: -250px;
+	margin-bottom: 50px;
+
+
+	
+}
+
+#specifications4{
+	margin-top: -140px;
+	
+	margin-left: 1000px;
+	margin-top: -205px;
+}
+
+.part3{background-color: white;
+	height: 150px;
+	width: auto;
+	margin-top: 90px;
+	border-radius: 20px;
+
+}
+
+
+#png5{
+	width: 120px;
+	height: 120px;
+	margin-left: 50px;
+
+
+	
+}
+#specifications5{
+	margin-top: -140px;
+	margin-left: 300px;
+
+}
+#png6{
+	width: 120px;
+	height: 120px;
+	margin-left: 800px;
+	margin-top: -250px;
+	margin-bottom: 50px;
+
+
+	
+}
+
+#specifications6{
+	margin-top: -140px;
+	
+	margin-left: 1000px;
+	margin-top: -205px;
+}
+.part4{background-color: white;
+	height: 150px;
+	width: auto;
+	margin-top: 90px;
+	border-radius: 20px;
+
+}
+
+
+#png7{
+	width: 120px;
+	height: 120px;
+	margin-left: 50px;
+
+
+	
+}
+#specifications7{
+	margin-top: -140px;
+	margin-left: 300px;
+
+}
+#png8{
+	width: 120px;
+	height: 120px;
+	margin-left: 800px;
+	margin-top: -250px;
+	margin-bottom: 50px;
+
+
+	
+}
+
+#specifications8{
+	margin-top: -140px;
+	
+	margin-left: 1000px;
+	margin-top: -205px;
+}

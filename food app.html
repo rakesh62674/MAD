@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mad food's</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <script src="food.js"></script>
+
+</head>
+ <style>
+  #main{display:flex;flex-direction: row;flex-flow: wrap; justify-content: space-around;}
+  
+  .carousel-inner img {
+    width: 100%;
+
+  }
+  *{
+     text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;}
+    .chefs{
+      display: flex;
+      justify-content: space-around;
+      width:100px;
+    }
+.chefsd{display: flex; flex-direction: row;flex-flow: wrap;justify-content: space-around;background-color:yellow;}
+  </style>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+  <a class="navbar-brand" href="#"><h2>MAD FOOD COURT</h2></a>
+  <button class="navbar-toggler bg-warning text-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">menu
+    
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto text-light">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="menu.html">MENU</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FOOD STYLE
+        </a>
+        <div class="dropdown-menu  text-light  bg-primary" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="menu.html/#chinies">CHINES</a>
+          <a class="dropdown-item" href="menu.html#indians">INDIAN</a>
+          <a class="dropdown-item" href="menu.html#mexican">MEXICAN</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="blog.html">BLOG</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link " href="loginform.html">login</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+      <button class="btn  bg-warning text-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+  </div>
+</nav>
+<br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="biryani.png" alt="Los Angeles" width="300px" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="cakes.jpg" alt="Chicago" width="100%" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="pizza.jpg" alt="New York" width="100%" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+<br>
+<h1 style="text-align:center; text-transform: capitalize; text-decoration:none;background-color: #F5F5F5">our special's</h1>
+
+<div class="con"  id="main" style="background-color:gray; height:100%;width:100%">
+<div class="container" style="width:350px ;height:320px; background-color:white;border-radius: 20px;margin-top: 10px;  " >
+  <img src="mb.jpg"style="width:300px;height: 150px;margin-left:10px; margin-top: 30px; border-radius: 5px;"><br>
+<h4 style="text-align:center;">mutton dum biryani</h4>
+<p style="text-align:center;">a special dum biryani </p>
+<input type="range" min="1" max="10"style="width: 50px;margin-left: 10px;">
+<button class="btn btn-warning" style="margin-left: 40px;"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>add to cart</button>
+<button class="btn btn-primary" style=
+'margin-left:1px'>order now</button></div>
+
+
+
+<div class="container" style="width:350px ;height:320px; background-color:white;border-radius: 20px;margin-top: 10px;  " >
+  <img src="cd.jpg"style="width:300px;height: 150px;margin-left:10px; margin-top: 30px; border-radius: 5px;"><br>
+<h4 style="text-align:center;">cheese dosa</h4>
+<p style="text-align:center;">an indian dosa that makes you feel glad</p>
+<input type="range" min="1" max="10"style="width: 50px;margin-left: 10px;">
+<button class="btn btn-warning" style="margin-left: 40px;"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>add to cart</button>
+<button class="btn btn-primary" style=
+'margin-left:1px'>order now</button></div>
+
+
+<div class="container" style="width:350px ;height:320px; background-color:white;border-radius: 20px;margin-top: 10px; margin-bottom: 2px; " >
+  <img src="rv.jpg"style="width:300px;height: 150px;margin-left:10px; margin-top: 30px; border-radius: 5px;"><br>
+<h4 style="text-align:center;">red velvet</h4>
+<p style="text-align:center;">coolest pastries that makes you cool..!</p>
+<input type="range" min="1" max="10"style="width: 50px;margin-left: 10px;">
+<button class="btn btn-warning" style="margin-left: 40px;"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> add to cart</button>
+<button class="btn btn-primary" style=
+'margin-left:1px'>order now</button></div>
+<!--<a href="menu.html"><button class="btn btn-warning fa-1x" style="margin-left: 50% ;margin-right:auto;">More</button></a>-->
+<div class="container" style="width:350px ;height:320px; background-color:white;border-radius: 20px;margin-top: 10px;  " >
+  <img src="https://www.deputy.com/uploads/2018/10/The-Most-Popular-Menu-Items-That-You-should-Consider-Adding-to-Your-Restaurant_Content-image3-min-1024x569.png"style="width:300px;height: 150px;margin-left:10px; margin-top: 30px; border-radius: 5px;"><br>
+<h4 style="text-align:center;">veg burger</h4>
+<p style="text-align:center;">a cheese burger </p>
+<input type="range" min="1" max="10"style="width: 50px;margin-left: 10px;">
+<button class="btn btn-warning" style="margin-left: 40px;"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>add to cart</button>
+<button class="btn btn-primary" style=
+'margin-left:1px'>order now</button></div>
+
+
+
+<div class="container" style="width:350px ;height:320px; background-color:white;border-radius: 20px;margin-top: 10px;  " >
+  <img src="https://www.hindustantimes.com/rf/image_size_444x250/HT/p2/2018/09/15/Pictures/_22d8284c-b8b1-11e8-ab60-f008577e130d.jpg"style="width:300px;height: 150px;margin-left:10px; margin-top: 30px; border-radius: 5px;"><br>
+<h4 style="text-align:center;">veg pizza</h4>
+<p style="text-align:center;">a pizza that makes you feel glad</p>
+<input type="range" min="1" max="10"style="width: 50px;margin-left: 10px;">
+<button class="btn btn-warning" style="margin-left: 40px;"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>add to cart</button>
+<button class="btn btn-primary" style=
+'margin-left:1px'>order now</button></div>
+
+
+<div class="container" style="width:350px ;height:320px; background-color:white;border-radius: 20px;margin-top: 10px; margin-bottom: 2px; " >
+  <img src="https://img.foodyas.com/1/v/t1.0-9/68708281_2347279302056986_6829600451407642624_n.jpg?_nc_cat=100&_nc_ohc=KaQwo-L6D8YAX_YgV2z&_nc_ht=scontent.xx&oh=3ec05593687321fdf7ddf23c79fb2a70&oe=5EBDCDB5"style="width:300px;height: 150px;margin-left:10px; margin-top: 30px; border-radius: 5px;"><br>
+<h4 style="text-align:center;">chicken leg piece</h4>
+<p style="text-align:center;">cryspy chicken leg..!</p>
+<input type="range" min="1" max="10"style="width: 50px;margin-left: 10px;">
+<button class="btn btn-warning" style="margin-left: 40px;"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> add to cart</button>
+<button class="btn btn-primary" style=
+'margin-left:1px'>order now</button></div></div>
+
+
+
+
+
+
+
+
+
+
+
+<div style="text-transform: capitalize;">
+  <h1 style="text-align:center;  text-underline-position: center;text-transform: capitalize;background-color:">our experts</h1></div>
+
+<div class="chefsd">
+  
+ <div class="chef1 "style="height: 60%;height: 40%;margin-left: 50px;" >
+      
+        <img src="chef-1.png"style="height: 400px;%;margin-left:60px; ">
+         <h1>john paul</h1>
+    <p>sr.chef</p>
+</div>
+<div class="chef2 "style="height: 30%"; >
+    <img src="chef3.png"style="width:350px;height: 400px;">
+     <h1>fernandas</h1>
+    <p>jr. chef</p>
+</div>
+ <!--    <div class="chef3 bg-danger"style="height: 100%"; >
+       <img src="chef4.png"style="width: 100%">
+       <h1>antony</h1>
+    <p>sr.chef</p>
+</div>-->
+ <div class="chef4 " style="height:30%">
+     <img src="chef5.png"style="width:350px;height: 400px;">
+       <h1>ching chong</h1>
+    <p>sr.chef</p></div>
+</div>
+<div class=" bg-primary text-white" style=" font-family: 'Roboto Condensed', sans-serif;">
+ <h1 style="text-align:center;text-transform: capitalize; ">contact us</h1>
+ <div class="fafa" style="display: flex;flex-direction: row;flex-flow: wrap;  justify-content: space-around;">
+  <div style="text-align:center;" >
+<i class="fa fa-map-marker bg-white text-primary fa-4x" aria-hidden="true" style="width: 70px;text-align: center;border-radius: 100%"></i>
+<h4 >location</h4>
+<address style="text-transform: capitalize;">hno:1-90,bandamedipally,<br>mahabubnagr<br>telangana.</address>
+</div>
+
+<div style="text-align:center;">
+<i class="fa fa-building bg-white text-primary fa-4x" aria-hidden="true" style="width: 70px;text-align: center;border-radius: 100%"></i>
+<h4 >other branch</h4>
+<address style="text-transform: uppercase">hno:1/45,ibrahimpatanam,<br>hyderabad<br>telangana.</address>
+</div>
+<div style="text-align:center;">
+<i class="fa fa-phone bg-white text-primary fa-4x" aria-hidden="true" style="width: 70px;text-align: center;border-radius: 100%"></i>
+<h4 >telephone</h4>
+<h2>9666015715</h2>
+</div>
+<div style="text-align:center;">
+<i class="fa fa-envelope-o
+bg-white text-primary fa-4x" aria-hidden="true" style="width: 70px;text-align: center;border-radius: 100%">
+ </i> <h4>mail us</h4>
+  <h5 style="text-transform:capitalize;">99c.rakesh@gmail.com</h5>
+</div></div></div></div>-->
+
+</body>
+</html>
